@@ -30,7 +30,7 @@ Here are some essential components that make C++ a powerful language:
 
 1. Classes and Objects
    	•	C++ supports object-oriented programming where classes serve as blueprints for creating objects. These classes can encapsulate data and behavior, providing more structure and modularity to programs.
-
+``` cpp
  
    class Car {
 public:
@@ -48,13 +48,13 @@ int main() {
     myCar.year = 2020;
     myCar.start();
 }
-
+```
 2. Templates
 
 	•	Function templates and class templates in C++ allow for generic programming. You can write a single function or class to handle different types of data.
 
 	•	C++ supports object-oriented programming where classes serve as blueprints for creating objects. These classes can encapsulate data and behavior, providing more structure and modularity to programs.
-
+``` cpp
 template <typename T>
 T add(T a, T b) {
     return a + b;
@@ -64,11 +64,11 @@ int main() {
     cout << add(10, 20) << endl;  // Adds integers
     cout << add(10.5, 20.5) << endl;  // Adds floats
 }
-
+```
 3. Standard Template Library (STL)
 
 	•	The STL provides a wide range of data structures (like vector, list, map) and algorithms (like sort, find, reverse).
-
+```cpp
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -82,7 +82,7 @@ int main() {
     }
     return 0;
 }
-
+```
 ## 📚 Resources for Learning C++
 
 	•	C++ Programming Language – Official documentation and reference for the C++ language.
